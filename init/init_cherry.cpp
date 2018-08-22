@@ -153,4 +153,22 @@ void init_target_properties()
         property_override("ro.build.description", "Che1-L04-user 4.4.4 GRJ90 C900B130 release-keys");
         property_override("ro.build.fingerprint", "Honor/Che1-L04/Che1:4.4.4/Che1-L04/C900B130:user/ota-rel-keys,release-keys");
     }
+    /* Y550-L01 */
+    else if (buf.find("Y550-L01") != std::string::npos) {
+        property_override("ro.product.model", "Y550-L01");
+        property_override("ro.product.device", "Y550-L01");
+        property_override("ro.build.product", "Y550-L01");
+    }
+    /* Y550-L02 */
+    else if (buf.find("Y550-L02") != std::string::npos) {
+        property_override("ro.product.model", "Y550-L02");
+        property_override("ro.product.device", "Y550-L02");
+        property_override("ro.build.product", "Y550-L02");
+    }
+    /* Y550-L03 */
+    else if (buf.find("Y550-L03") != std::string::npos) {
+        property_override("ro.product.model", "Y550-L03");
+        property_override("ro.product.device", "Y550-L03");
+        property_override("ro.build.product", "Y550-L03");
+    }
 }
