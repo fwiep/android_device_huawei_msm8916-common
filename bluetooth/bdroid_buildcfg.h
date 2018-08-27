@@ -48,6 +48,12 @@ static inline const char* BtmGetDefaultName()
 		return "HUAWEI Che1-CL20";
 	if (strstr(product_model, "Che1-L04"))
 		return "HUAWEI Che1-L04";
+	if (strstr(product_model, "Y550-L01"))
+		return "HUAWEI Y550-L01";
+	if (strstr(product_model, "Y550-L02"))
+		return "HUAWEI Y550-L02";
+	if (strstr(product_model, "Y550-L03"))
+		return "HUAWEI Y550-L03";
 
 	return "";
 }

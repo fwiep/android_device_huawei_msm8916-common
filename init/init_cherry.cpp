@@ -161,6 +161,18 @@ void init_target_properties()
         property_override_dual("ro.build.fingerprint", "ro.vendor.build.fingerprint",
                                "Honor/Che1-L04/Che1:4.4.4/Che1-L04/C900B130:user/ota-rel-keys,release-keys");
     }
+    /* Y550-L01 */
+    else if (buf.find("Y550-L01") != string::npos) {
+        set_model("Y550-L01");
+    }
+    /* Y550-L02 */
+    else if (buf.find("Y550-L02") != string::npos) {
+        set_model("Y550-L02");
+    }
+    /* Y550-L03 */
+    else if (buf.find("Y550-L03") != string::npos) {
+        set_model("Y550-L03");
+    }
     else {
         LOG(ERROR) << __func__ << ": unexcepted huawei_fac_product_name!";
     }
