@@ -57,8 +57,11 @@ TARGET_LIBINIT_MSM8916_DEFINES_FILE := $(VENDOR_PATH)/init/init_cherry.cpp
 BOARD_DTBTOOL_ARGS := -2
 BOARD_KERNEL_IMAGE_NAME := zImage
 BOARD_KERNEL_SEPARATED_DT := true
-TARGET_KERNEL_SOURCE := kernel/huawei/msm8916
-TARGET_KERNEL_CONFIG := lineageos_cherry_defconfig
+#TARGET_KERNEL_SOURCE := kernel/huawei/msm8916
+#TARGET_KERNEL_CONFIG := lineageos_cherry_defconfig
+TARGET_KERNEL_SOURCE := kernel/huawei/y550-vid
+TARGET_KERNEL_CONFIG := cm_hwY550_defconfig
+
 
 # Lights
 TARGET_PROVIDES_LIBLIGHT := true
