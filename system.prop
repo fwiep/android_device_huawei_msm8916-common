@@ -5,7 +5,6 @@ persist.vendor.audio.fluence.voicerec=false
 persist.vendor.audio.fluence.speaker=true
 
 # Display
-#ro.sf.lcd_density=320
 ro.sf.lcd_density=240
 ro.qualcomm.cabl=0
 
